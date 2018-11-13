@@ -117,6 +117,11 @@
             android:fragment="com.android.settings.display.RefreshRateSettingsFragment"
             settings:controller="com.android.settings.display.RefreshRatePreferenceController" />
 
+    <com.android.settings.display.FontDialogPreference
+        android:key="custom_font"
+        android:title="@string/font_picker_title"
+        android:persistent="false" />
+
     <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
