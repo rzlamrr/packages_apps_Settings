@@ -166,6 +166,8 @@ import com.hycon.settings.HyconHub;
 import com.hycon.settings.Traffic;
 import com.hycon.settings.fragments.GamingMode;
 
+import com.android.settings.livedisplay.LiveDisplaySettings;
+
 public class SettingsGateway {
 
     /**
@@ -318,7 +320,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             HyconHub.class.getName(),
             Traffic.class.getName(),
-            GamingMode.class.getName()            
+            GamingMode.class.getName(),
+            LiveDisplaySettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

@@ -246,8 +246,10 @@ public class Settings extends SettingsActivity {
      * Activity for Hycon Hub
      */
     public static class HyconHubActivity extends SettingsActivity { /* empty */ }
-
     public static class TrafficActivity extends SettingsActivity { /* empty */ }
+    public static class GamingModeActivity extends SettingsActivity {}
 
-     public static class GamingModeActivity extends SettingsActivity {}
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
