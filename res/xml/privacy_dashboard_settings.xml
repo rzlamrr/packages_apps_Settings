@@ -69,11 +69,19 @@
         settings:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
 
     <!-- Permissions hub -->
-    <com.android.settings.custom..preference.SystemSettingSwitchPreference
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="permissions_hub_enabled"
         android:title="@string/show_permissions_hub"
         android:summary="@string/show_permissions_hub_summary"
         android:defaultValue="false" />
+
+    <!-- Clipboard toast info -->
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="clipboard_toast_info"
+        android:title="@string/clipboard_toast_info_title"
+        android:entries="@array/clipboard_toast_info_entries"
+        android:entryValues="@array/clipboard_toast_info_values"
+        android:defaultValue="0" />
 
     <!-- On lock screen notifications -->
     <com.android.settings.RestrictedListPreference
