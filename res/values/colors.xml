@@ -169,4 +169,8 @@
     <color name="palette_list_dark_mode_color_blue">#8AB4F8</color> <!-- Material Blue 300 -->
     <color name="palette_list_dark_mode_color_purple">#c58af9</color> <!-- Material Purple 300 -->
 
+    <!-- Hycon version page colors -->
+    <color name="hycon_version_border_color">#E6E6E6</color>
+    <color name="hycon_version_text_color">#121212</color>
+
 </resources>

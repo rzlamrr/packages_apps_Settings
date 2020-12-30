@@ -38,5 +38,9 @@
     <color name="palette_list_color_purple">@color/palette_list_dark_mode_color_purple</color>
     <color name="gestures_setting_background_color">@android:color/black</color>
     <color name="divider_color">#20212121</color>
+
+    <!-- Hycon version page colors -->
+    <color name="hycon_version_border_color">#242424</color>
+    <color name="hycon_version_text_color">#FFFFFF</color>
 </resources>
 

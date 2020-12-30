@@ -21,9 +21,14 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-<PreferenceScreen
-    android:layout="@layout/hycon_logo_layout"
-    android:key="hycon_logo" />
+    <!-- Hycon Version -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout_height="match_parent"
+        android:key="hycon_version"
+        android:layout="@layout/hycon_version"
+        android:order="-500"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.HyconVersionPreferenceController" />
 
     <!-- Android version -->
     <Preference
@@ -33,22 +38,6 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
-
-    <!-- ROM Version -->
-    <Preference
-        android:key="hycon_version"
-        android:title="@string/hycon_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.HyconVersionPreferenceController"/>
-
-    <!-- Hycon maintainer -->
-    <Preference
-        android:key="maintainer"
-        android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.hycon.HyconMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
