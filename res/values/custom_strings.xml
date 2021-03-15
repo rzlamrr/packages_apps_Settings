@@ -36,6 +36,7 @@
 
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Screen refresh rate</string>
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
 
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
