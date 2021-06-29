@@ -164,6 +164,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.hycon.settings.HyconHub;
 import com.hycon.settings.Traffic;
+import com.hycon.settings.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -316,7 +317,8 @@ public class SettingsGateway {
             InteractAcrossProfilesDetails.class.getName(),
             MediaControlsSettings.class.getName(),
             HyconHub.class.getName(),
-            Traffic.class.getName()
+            Traffic.class.getName(),
+            GamingMode.class.getName()            
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -358,5 +360,6 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.HyconHubActivity.class.getName(),
             Settings.TrafficActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),            
     };
 }
