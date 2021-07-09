@@ -62,6 +62,12 @@
         android:selectable="true"
         settings:textStart="@string/hidden_label"
         settings:textEnd="@string/long_label"/>
+        
+     <com.android.settings.widget.SystemSettingSwitchPreference
+        android:key="edge_music_control"
+        android:title="@string/edge_music_title"
+        android:summary="@string/edge_music_summary"
+        android:defaultValue="false" />   
 
 </PreferenceScreen>
 

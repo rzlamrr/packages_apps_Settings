@@ -262,6 +262,10 @@
     <string name="double_tap_title">Double tap</string>
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    
+    <!-- Edge Music Gestures -->
+    <string name="edge_music_title">Edge Music Gesture</string>
+    <string name="edge_music_summary">Enable music control on dead edge area (set edge deadzone to anything other than off) </string>
 
     <!-- Permissions hub toggle -->
     <string name="show_permissions_hub">Show permissions hub</string>
